@@ -12,7 +12,7 @@ ENV	PYTHONFAULTHANDLER=1 \
 	PIP_DEFAULT_TIMEOUT=100
 
 #RUN apt-get install -y build-essential libpython
-RUN pip install -r requirements.txt
+#RUN pip install -r requirements.txt
 
 EXPOSE 8080
 
