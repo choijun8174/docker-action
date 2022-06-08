@@ -17,4 +17,4 @@ RUN pip install -r requirements.txt
 EXPOSE 8080
 
 #CMD ["uvicorn", "app.py:app", "--host", "localhost", "--port", "8080", "--reload"]
-CMD ["python3", "app.py"]
+#CMD ["python3", "app.py"]

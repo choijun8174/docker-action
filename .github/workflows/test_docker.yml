@@ -28,5 +28,6 @@ jobs:
         python -m pip install --upgrade pip
         cd Dockerfiles/
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+    - name: Build docker
+      run: |
         sudo docker-compose up --build
-        echo "done"
